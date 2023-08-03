@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.game-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+}
+
+.ugemi {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+}
+
+.metor, .mermiler {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.meteorlar img {
+  position: absolute;
+  width: 50px;
+}
+.metor {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+
+.mermiler {
+  width: 5px;
+  height: 20px;
+  background-color: yellow;
+}
+
+.skor {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
